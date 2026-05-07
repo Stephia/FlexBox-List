@@ -13,4 +13,6 @@
 .item_son{
     background-color: beige;
     height: 30px;
+    border: 1px solid black;
+    flex: auto;
 }
