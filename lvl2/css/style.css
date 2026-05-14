@@ -6,69 +6,71 @@ body{
 
 #container_ex1{
     background-color: aliceblue;
-    display: flex; /*Ao colocar o flex, os itens que estavam em
- forma de coluna (um sobre o outro) agora se juntam numa linha só*/
-    width: 500px;
+    display: flex;
+    width: 400px;
+    /*justify-content: flex-start; os filhos são colocados todos ao começo :)*/
+    /*justify-content: flex-end; os filhos são colocados todos ao fim
+dessa vez sem a alteração da ordem deles*/
+    /*justify-content: center; os filhos são colocados juntos ao meio,
+tendo espaço igual entre o começo e o fim do pai*/
+    /*justify-content: space-between; os filhos agora tem um espaço igual
+entre eles, mas não em relação ao pai (não ficam longe da borda)*/
+    /*justify-content: space-around; agora os filhos tem um espaço igual
+entre os lados deles (respeitando o limite de tamanho do pai)*/
+    justify-content: space-evenly; /* é quase como o de cima, mas o espaço
+entre os filhos é menor, mas entre o pai maior */
 }
 
 #container_ex1 .size {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 #container_ex1 .son1{
-    background-color: red;
+    background-color: blue;
 }
 
 #container_ex1 .son2{
-    background-color: orange;
+    background-color: rgb(87, 252, 252);
 }
 
 #container_ex1 .son3{
-    background-color: yellow;
+    background-color: rgb(132, 255, 132);
 }
 
 #container_ex1 .son4{
     background-color: green;
 }
 
-#container_ex1 .son5{
-    background-color: blue;
-}
-
 #container_ex2{
     background-color: aliceblue;
     display: flex;
-    width: 500px;
-    /*flex-direction: row; igual ao do exercicio anterior*/ 
-    /*flex-direction: column; uma coluna e um quadrado :D */
-    /*flex-direction: row-reverse; A linha de cores que era 1,2,3,4,5
- agora está colocada de forma contrária e no canto direito sendo 5,4,3,2,1*/
-    flex-direction: column-reverse; /* O mesmo que o da coluna, mas agora
-os núemros estão de forma decrescente */
+    height: 300px;
 }
 
-#container_ex2 .size {
-    width: 80px;
-    height: 80px;
+#size1 {
+    width: 60px;
+    height: 60px;
 }
 
 #container_ex2 .son1{
-    background-color: purple;
+    background-color: rgb(255, 101, 160);
+}
+
+#size2 {
+    width: 100px;
+    height: 100px;
 }
 
 #container_ex2 .son2{
     background-color: plum;
 }
 
+#size3 {
+    width: 80px;
+    height: 80px;
+}
+
 #container_ex2 .son3{
     background-color: lavender;
-}
-
-#container_ex2 .son4{
-    background-color: pink;
-}
-
-#container_ex2 .son5{
-    background-color: palevioletred;
 }
