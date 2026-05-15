@@ -46,31 +46,34 @@ entre os filhos é menor, mas entre o pai maior */
     background-color: aliceblue;
     display: flex;
     height: 300px;
-}
-
-#size1 {
-    width: 60px;
-    height: 60px;
+    /*align-items: stretch; Apenas funciona sem as alturas, por ser o termo
+normal*/
+    /*align-items: flex-end; Coloca todos os filhos no fim da altura do pai*/
+    /*align-items: flex-start; Coloca todos os filhos para o topo da altura
+do pai*/
+    /*align-items: center; Centraliza os filhos ao meio, mas no meio do canto
+esquerdo do pai*/
+    align-items: baseline; /* Alinha os filhos de acordo com o tamanho do
+texto deles usando de base a linha da fonte maior */
 }
 
 #container_ex2 .son1{
     background-color: rgb(255, 101, 160);
-}
-
-#size2 {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
 }
 
 #container_ex2 .son2{
-    background-color: plum;
-}
-
-#size3 {
-    width: 80px;
-    height: 80px;
+    background-color: rgb(255, 243, 68);
+    width: 100px;
+    height: 100px;
+    font-size: 100px;
 }
 
 #container_ex2 .son3{
-    background-color: lavender;
+    background-color: rgb(61, 145, 255);
+    width: 80px;
+    height: 80px;
+    font-size: 80px;
 }
