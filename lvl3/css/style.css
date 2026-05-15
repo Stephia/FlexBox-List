@@ -1,0 +1,95 @@
+body{
+
+    background-color: antiquewhite;
+
+}
+
+#container_ex1{
+    background-color: aliceblue;
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap; /* Os filhos foram de linhas, para quadrados que ocupam
+e depois vão descendo, fazendo um conjunto de quadrados dentro do pai*/
+    justify-content: center; /* Ficou parecendo uma calculadora */
+    /*align-content: center; */
+    /*align-content: space-between; */
+}
+
+#container_ex1 .size {
+    width: 120px;
+    height: 120px;
+}
+
+#container_ex1 .son1{
+    background-color: rgb(0, 0, 0);
+}
+
+#container_ex1 .son2{
+    background-color: rgb(27, 27, 27);
+}
+
+#container_ex1 .son3{
+    background-color: rgb(66, 66, 66);
+}
+
+#container_ex1 .son4{
+    background-color: rgb(109, 109, 109);
+}
+
+#container_ex1 .son5{
+    background-color: rgb(158, 158, 158);
+}
+
+#container_ex1 .son6{
+    background-color: rgb(179, 179, 179);
+}
+
+#container_ex1 .son7{
+    background-color: rgb(219, 219, 219);
+}
+
+#container_ex1 .son8{
+    background-color: rgb(255, 255, 255);
+}
+
+#container_ex1 .son9{
+    background-color: rgb(100, 30, 212);
+}
+#container_ex1 .son10{
+    background-color: rgb(124, 0, 182);
+}
+
+#container_ex2{
+    background-color: aliceblue;
+    display: flex;
+    width: 400px;
+}
+
+#container_ex2 .size {
+    width: 120px;
+    height: 120px;
+}
+
+#container_ex2 .son1{
+    background-color: rgb(255, 101, 160);
+}
+
+#container_ex2 .son2{
+    background-color: rgb(255, 243, 68);
+}
+
+#container_ex2 .son3{
+    background-color: rgb(61, 145, 255);
+}
+
+#container_ex2 .son4{
+    background-color: rgb(61, 145, 255);
+}
+
+#container_ex2 .son5{
+    background-color: rgb(61, 145, 255);
+}
+
+#container_ex2 .son6{
+    background-color: rgb(61, 145, 255);
+}
